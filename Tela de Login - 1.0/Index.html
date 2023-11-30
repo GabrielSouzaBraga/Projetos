@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <title>Criar uma nova conta</title>
+</head>
+<body>
+  
+  <div class="circle"></div>
+  <div class="card">
+      <div class="logo">
+        <i class='bx bxs-leaf'></i>
+      </div>
+      <h2>Criar uma Conta</h2>
+      <form class="form">
+        <input type="text" placeholder="Nome">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Senha" id="senha">
+        <i class='bx bxs-show' onclick="mostrarsenha()" id="btnsenha"></i>
+        <button type="submit">Cadastre-se</button>
+      </form>
+      <footer>
+        Já tem uma Conta?
+        <a href="#">Entrar</a>
+      </footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
