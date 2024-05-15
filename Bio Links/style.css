@@ -87,3 +87,13 @@
   color: #fff;
   font-size: 12px;
 }
+
+@media (max-width: 1000px) {
+  .profile-box{
+    width: 350px ;
+  }
+
+  .social-media i {
+    margin: 15px 10px ;
+  }
+}
